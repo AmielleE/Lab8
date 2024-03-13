@@ -1,3 +1,11 @@
+/*
+=================================================================================================================
+Assignment : Lab 8 , Exercise B
+Author(s) : Amielle El Makhzoumi, Diba Jamali
+Submission : March 13th, 2024
+Description : React .
+=================================================================================================================
+*/
 import React from 'react';
 
 const NotFoundPage = () => {

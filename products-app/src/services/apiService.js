@@ -1,3 +1,11 @@
+/*
+=================================================================================================================
+Assignment : Lab 8 , Exercise B
+Author(s) : Amielle El Makhzoumi, Diba Jamali
+Submission : March 13th, 2024
+Description : React .
+=================================================================================================================
+*/
 import axios from 'axios';
 
 const BASE_URL = 'https://dummyjson.com/products';

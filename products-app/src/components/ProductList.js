@@ -1,3 +1,11 @@
+/*
+=================================================================================================================
+Assignment : Lab 8 , Exercise B
+Author(s) : Amielle El Makhzoumi, Diba Jamali
+Submission : March 13th, 2024
+Description : React .
+=================================================================================================================
+*/
 import React, { useEffect, useState } from 'react';
 import { fetchProducts } from '../services/apiService';
 import { useProductsContext } from '../context/ProductsContext';
