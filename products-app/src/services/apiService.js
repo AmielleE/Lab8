@@ -22,7 +22,13 @@ export const fetchProducts = async () => {
 
 // Fetches details for a single product by its ID
 export const getProductDetails = async (id) => {
-    // implement it using similar logic as fetchProducts function
+    try{
+        const response = await axios.get('${BASE_URL}/${id}');
+        return response.data;
+    }
+    catch(error){
+        throw error;
+    }
 };
 
 // Deletes a product by its ID
